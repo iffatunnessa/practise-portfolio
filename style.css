@@ -6,6 +6,9 @@ h1{
     font-size: 50px;
     
 }
+h2{
+    font-size: 30px;
+}
 .name-highlight{
     color : rgb(255, 166, 0);
 }
@@ -25,6 +28,7 @@ h1{
 }
 section{
     height: 500px;
+    margin-bottom: 50px;
 }
 .linkedin
 {
@@ -34,4 +38,45 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 500;
+}
+p{
+    color: dimgray;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp{
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.exp h2{
+    margin-left: 40px;
+    
+}
+.experiences{
+    float: left;
+    box-shadow: 10px 10px 40px gray;
+    width: 33%;
+    margin: 50px 80px;
+    padding: 30px;
+    height: 200px;
+    border-radius: 2px;
+}
+#master{
+    border-image: linear-gradient(0deg, orange,red);
+    border-left: 4px solid ;
+    border-image-slice: 1;
+    background-color: white;
+}
+#baby{
+    border-image: linear-gradient(0deg, skyblue,blue);
+    border-left: 4px solid ;
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size:10px ;
 }
