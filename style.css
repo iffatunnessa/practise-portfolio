@@ -1,6 +1,6 @@
 body{
     font-family: Calibri, 'Trebuchet MS', sans-serif;
-    margin: 20px;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -16,5 +16,13 @@ h1{
     margin-left: 5%;
 }
 .half-width img{
+    margin-top: 2px;
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 504px;
 }
